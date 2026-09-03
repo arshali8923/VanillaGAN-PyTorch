@@ -122,3 +122,44 @@ else:
 
 generator = generator.to(device)
 discriminator = discriminator.to(device)
+
+
+"""TRAIN LOADER"""
+def train(generator , discriminator , dataloader , epochs = 10):
+
+    for epoch in range(epochs):
+        for i , imgs in enumerate(dataloader):
+            real_imgs = imgs.to(device)
+            batch_size = real_imgs.size(0)
+
+            #create real img label and fake img label
+            real_labels = torch.ones(batch_size , 1).to(device)
+            fake_labels = torch.zeros(batch_size , 1).to(device)
+
+            #train the descriminators
+            d_optimizer.zero_grad()
+
+            fake_imgs = generator(torch.randomn(batch_size , 100)).to(device)
+
+            real_loss = GAN_loss(discriminator(real_imgs) , real_labels)
+            fake_loss = GAN_loss(discriminator(fake_imgs.detach())  , fake_labels)
+
+            d_loss = (real_loss + fake_loss)/2
+
+            d_loss.backward()
+            d_optimizer.step()
+
+            #train the generators
+
+            g_optimizer.zero_grad()
+
+            g_loss = GAN_loss(discriminator(fake_imgs) , real_labels)
+
+            g_loss.backward()
+            g_optimizer.step()
+
+            if i % 50 == 0:
+                print(f"for epoch : {epoch + 1}/{epochs}... batch {i+1}...G_loss {g_loss}... D_loss {d_loss}")
+
+    #save generated images for each epoch
+    save_generated_images(generator , epoch , device)

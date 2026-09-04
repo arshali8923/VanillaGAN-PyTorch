@@ -163,3 +163,21 @@ def train(generator , discriminator , dataloader , epochs = 10):
 
     #save generated images for each epoch
     save_generated_images(generator , epoch , device)
+
+import matplotlib.pyplot as plt
+import torchvision
+
+def save_generated_images(generator , epoch , device , num_imgs = 8):
+    z = torch.randn(num_imgs , 100).to(device)
+    generated_imgs = generator(z).detach().cpu()
+
+    #imge generate [-1,1] but expect in rgb [0,1] so normalize = true
+    grid = torchvision.utils.make_grid(generated_imgs , nrow = 4 , normalize = True)
+
+    plt.imshow(np.transpose(grid , (1 , 2, 0)))
+    plt.title(f"epoch {epoch+1}")
+    plt.axis("off")
+    plt.savefig(f"epoch_{epoch+1}.png")
+    plt.show()
+
+train(generator , discriminator , dataloader , epochs = 10)

@@ -1,0 +1,43 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyTorch / model checkpoints
+*.pt
+*.pth
+checkpoints/
+
+# Generated images from training
+*.png
+images/
+outputs/
+
+# Logs
+*.log
+logs/
+runs/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/project settings
+.vscode/
+.idea/
+
+# Data (optional: if dataset is huge, don’t push it)
+data/
+*.zip
+*.tar
+*.gz

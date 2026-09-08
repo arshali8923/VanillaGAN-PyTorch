@@ -126,7 +126,7 @@ GAN/
     ├── 000001.jpg
     ├── 000002.jpg
     ├── 000003.jpg
-    └── ...
+    └── .....
 
 Note: The dataset folder can be large, so it is generally better to exclude it from GitHub using .gitignore
 

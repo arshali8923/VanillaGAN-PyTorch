@@ -31,7 +31,7 @@ PyTorch
 Torchvision
 NumPy
 Matplotlib
-Pillow (PIL)
+PIL
 
 📂 Dataset
 

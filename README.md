@@ -31,7 +31,7 @@ PyTorch
 Torchvision
 NumPy
 Matplotlib
-PIL
+PIL(Python Imaging Library)
 
 📂 Dataset
 

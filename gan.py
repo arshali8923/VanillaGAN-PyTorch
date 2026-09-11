@@ -4,7 +4,7 @@ from torch.utils.data import DataLoader , Dataset
 from torchvision import transforms
 from PIL import Image
 
-#image load => transform => dataset out of all img
+#image load => transform => dataset out of all images
 
 class ImageProcessor:
     def __init__(self , root_dir_path , transformations = None):

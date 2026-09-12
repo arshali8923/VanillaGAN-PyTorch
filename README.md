@@ -74,10 +74,10 @@ LeakyReLU(0.2) is used between the hidden layers.
 For every batch:
 
 1. Train Discriminator
-Load real images.
-Generate fake images from random noise.
-Calculate loss for real images.
-Calculate loss for fake images.
+Load real images
+Generate fake images from random noise
+Calculate loss for real images
+Calculate loss for fake images
 Combine both losses.
 Backpropagate and update the discriminator.
 d_loss = (real_loss + fake_loss) / 2

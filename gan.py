@@ -40,7 +40,7 @@ print(f"loaded {len(dataset)} images")
 
 dataloader = DataLoader(dataset , batch_size = 128 , shuffle = True)
 
-"""Generator Network"""
+"""Generator Networks"""
 
 import torch.nn as nn
 import torch.optim as optim

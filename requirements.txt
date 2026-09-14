@@ -1,5 +1,5 @@
 torch
 torchvision
 numpy
-PIL
+PI(Python Imaging Library)
 matplotlib

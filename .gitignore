@@ -16,7 +16,7 @@ env/
 # PyTorch / model checkpoints
 *.pt
 *.pth
-checkpoints/
+checkpointss/
 
 # Generated images from training
 *.png

@@ -10,7 +10,7 @@ venv/
 env/
 .venv/
 
-# Jupyter Notebook checkpoints
+# Jupyter Notebook checkpoint
 .ipynb_checkpoints/
 
 # PyTorch / model checkpoints

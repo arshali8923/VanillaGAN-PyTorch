@@ -1,5 +1,5 @@
-torch
-torchvision
-numpy
+Torch
+Torchvision
+Numpy
 PIL(Python Imaging Library)
-matplotlib
+Matplotlib

@@ -11,7 +11,7 @@ class ImageProcessor:
         self.root_dir_path = root_dir_path
         self.transformations = transformations
 
-        # list of path for all images
+        # list of path for all image
         self.all_img_path =  [os.path.join(root_dir_path , img) for img in os.listdir(root_dir_path)]
 
     def __len__(self):

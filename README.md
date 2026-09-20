@@ -61,7 +61,7 @@ The final activation function is Tanh(), producing values in the range [-1, 1].
 
 🧠 Discriminator
 
-The Discriminator receives a 3 × 64 × 64 image.
+The Discriminator receives a 3 × 64 × 64 image
 The image is flattened and passed through fully connected layers:
 12288 → 1024 → 512 → 256 →  1
 Sigmoid() produces a probability:

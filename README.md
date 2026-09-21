@@ -96,7 +96,7 @@ torchvision.utils.make_grid()
 The images are saved after training as:
 epoch_50.png
 During training, loss information is printed every 50 batches:
-for epoch : 1/50... batch 1... G_loss ... D_loss ...
+for epoch : 1/50... batch 1... G_loss ... D_loss .....
 
 📦 Installation
 

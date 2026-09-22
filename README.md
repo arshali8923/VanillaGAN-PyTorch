@@ -71,7 +71,7 @@ LeakyReLU(0.2) is used between the hidden layers.
 
 🔄 Training Processs
 
-For every batch:
+For every batch:-
 
 1. Train Discriminator
 Load real images

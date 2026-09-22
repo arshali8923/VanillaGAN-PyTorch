@@ -69,7 +69,7 @@ Sigmoid() produces a probability:
 1 → Real
 LeakyReLU(0.2) is used between the hidden layers.
 
-🔄 Training Process
+🔄 Training Processs
 
 For every batch:
 

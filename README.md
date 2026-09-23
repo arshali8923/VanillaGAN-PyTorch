@@ -49,7 +49,7 @@ Normalization converts pixel values approximately from:
 
 [0, 1] → [-1, 1]
 
-This matches the Tanh() output used by the Generator.
+This matches the Tanh() output used by the Generator
 
 🧠 Generator
 

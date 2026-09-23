@@ -80,7 +80,7 @@ Calculate loss for real images
 Calculate loss for fake images
 Combine both losses.
 Backpropagate and update the discriminator.
-d_loss = (real_loss + fake_loss) / 2
+d_loss = (real_loss + fake_loss) / 2.
 The fake images are detached during discriminator training:
 discriminator(fake_imgs.detach())
 This prevents the discriminator update from changing the Generator.

@@ -131,4 +131,4 @@ Note: The dataset folder can be large, so it is generally better to exclude it f
 
 📜 License
 
-This project is intended for learning and educational purposes.
+This project is intended for learning and educational purposes

@@ -104,7 +104,7 @@ Install the required packages:
 pip install torch torchvision pillow numpy matplotlib
 
 ▶️ How to Run
-Download/extract the CelebA aligned image dataset.
+Download/extract the CelebA aligned image dataset
 Update the dataset path in the Python file:
 root_dir_path = r"C:\Users\YourName\Desktop\prime ai&ml\GAN\img_align_celeba\img_align_celeba"
 

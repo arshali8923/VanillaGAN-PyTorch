@@ -111,7 +111,7 @@ root_dir_path = r"C:\Users\YourName\Desktop\prime ai&ml\GAN\img_align_celeba\img
 Run the Python script:
 python gan.py
 
-The model will train for 50 epochs.
+The model will train for 50 epochs
 Generated images will be saved as epoch_50.png.
 
 📁 Suggested Project Structure

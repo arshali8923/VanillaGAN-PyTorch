@@ -45,7 +45,7 @@ transforms.Compose([
                          (0.5, 0.5, 0.5))
 ])
 
-Normalization converts pixel values approximately from:
+Normalization converts pixel values approximately from:-
 
 [0, 1] → [-1, 1]
 

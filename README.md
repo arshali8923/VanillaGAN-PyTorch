@@ -55,7 +55,7 @@ This matches the Tanh() output used by the Generator
 
 The Generator receives a random latent vector of size 100 and progressively expands it:
 100 → 256 → 512 → 1024 → 12288
-The final 12288 values are reshaped into:
+The final 12288 values are reshaped into:-
 3 × 64 × 64
 The final activation function is Tanh(), producing values in the range [-1, 1].
 

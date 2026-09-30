@@ -108,7 +108,7 @@ Download/extract the CelebA aligned image dataset
 Update the dataset path in the Python file:
 root_dir_path = r"C:\Users\YourName\Desktop\prime ai&ml\GAN\img_align_celeba\img_align_celeba"
 
-Run the Python script:
+Run the Python script:-
 python gan.py
 
 The model will train for 50 epochs

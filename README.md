@@ -1,4 +1,4 @@
-GAN Image Generation with PyTorch.
+GAN Image Generation with PyTorch
 
 A simple Generative Adversarial Network (GAN) built with PyTorch to generate RGB images similar to the CelebA face dataset
 
